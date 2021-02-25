@@ -2,36 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Climbing Travelling Script</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
 <h1 id = "title">Climbing Travelling Agency</h1>
-<p id="description">Climbing survey</p>
-<form action="#" id="survey-form"></form>
+<p id="description">Would you like to go to South America to climb? Here's the place to go! Hit us with info and we will get in touch with you!</p>
+<div class="formwrapper">
+<div>
+<form action="#" id="survey-form">
   <label for="name" id="name-label">Name</label><br /> 
     <input type="text" id="name" required placeholder="Please Insert your Name"><br/>
     <label for="email" id="email-label">Email</label><br /> 
     <input type="email" id="email" required placeholder="Please Insert your Email"><br />
     <label for="number" id="number-label">Age</label  ><br /> 
-    <input type="number" id="number" min="0" max="120" placeholder="Please Insert your Age" ><br />
+    <input type="number" id="number" min="0" max="120" placeholder="Age" ><br />
+  </div>
+
+  <div>
+    <label for="dropdown">Where do you want to go?</label><br>
+
 <select name="place" id="dropdown">
   <option value="Chile">Chile</option>
   <option value="Argentina">Argentina</option>  
   <option value="Brazil">Brazil</option>  
   <option value="Colombia">Colombia</option>  
 </select><br />
-
+</div>
+<div>
+<label for="">What's your gender?</label><br>
 <input type="radio" id="male" name="gender" value="male">
   <label for="male">Male</label><br>
   <input type="radio" id="female" name="gender" value="female">
   <label for="female">Female</label><br>
   <input type="radio" id="other" name="gender" value="other">
   <label for="other">Other</label>
-
-  <br />
-  <br />
+</div>
+<div>
+  <label for="">What's your skill level?</label><br>
 
   <input type="radio" id="beginner" name="skill" value="beginner">
   <label for="beginner">Beginner</label><br>
@@ -39,15 +48,26 @@
   <label for="intermediate">Intermediate</label><br>
   <input type="radio" id="advanced" name="skill" value="advanced">
   <label for="advanced">Advanced</label> <br />
+</div>
 
+<div>
+  <label for="">What equipment do you have?</label><br><div>
   <input type="checkbox" value="shoes"><label for="shoes">Climbing shoes</label><br>
   <input type="checkbox" value="chalk"><label for="chalk">Chalk</label><br>
   <input type="checkbox" value="rope"><label for="rope">Rope</label><br>
   <input type="checkbox" value="quickdraws"><label for="quickdraws">Quickdraws</label><br>
-  
-  <textarea name="" id="" cols="30" rows="10"></textarea><br>
+  </div>
+</div>
+<div>
+<label for="extra">Anything else to add?</label><br>
+  <textarea name="extra" id="extra" cols="70" rows="10"></textarea><br>
+</div>
 <button id="submit" >submit</button>
+
+
 </form>
+
+</div>
 
 <p id = "description"></p>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

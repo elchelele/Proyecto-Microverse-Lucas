@@ -1,0 +1,63 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgb(41, 64, 85);
+    color: white;
+
+}
+
+#title {
+    font-size: 3rem;
+}
+
+input {
+    margin: 5px
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.5rem;
+}
+
+div {
+    margin: 20px
+}
+
+#survey-form {    
+    background-image: none;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px 100px;
+}
+#number {
+    padding: 5px 20px;
+    
+}
+
+.formwrapper{
+    padding: 5%;
+    background-image: linear-gradient( 
+115deg
+, rgba(0,100, 158, 0.8), rgba(136, 136, 100, 0.9) ), url("https://www.andeantrails.co.uk/wp-content/uploads/2018/03/Approaching-Ishinca-Summit-Cordillera-Blanca-Peru-530x360.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.25rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(233, 232, 232);
+}
+
+@media all and (max-width: 1280px) {
+
+#title {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.5rem;
+}
+#description{
+    font-size: 1.2rem;
+}
+}
