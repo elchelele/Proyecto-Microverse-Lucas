@@ -7,8 +7,7 @@
   </head>
 
   <body>
-<h1>Hello World, we are software developers!</h1>
-<h1 id = "title">Survey Form</h1>
+<h1 id = "title">Climbing Travelling Agency</h1>
 <form action="#" id="survey-form">
   <label for="name" id="name-label">Name</label><br /> 
     <input type="text" id="name" required placeholder="Please Insert your Name"><br/>
@@ -16,12 +15,36 @@
     <input type="email" id="email" required placeholder="Please Insert your Email"><br />
     <label for="number" id="number-label">Age</label  ><br /> 
     <input type="number" id="number" min="0" max="120" placeholder="Please Insert your Age" ><br />
-<select name="" id="dropdown">
+<select name="place" id="dropdown">
   <option value="Chile">Chile</option>
   <option value="Argentina">Argentina</option>  
   <option value="Brazil">Brazil</option>  
+  <option value="Colombia">Colombia</option>  
+</select><br />
 
-</select>
+<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+
+  <br />
+  <br />
+
+  <input type="radio" id="beginner" name="skill" value="beginner">
+  <label for="beginner">Beginner</label><br>
+  <input type="radio" id="intermediate" name="skill" value="intermediate">
+  <label for="intermediate">Intermediate</label><br>
+  <input type="radio" id="advanced" name="skill" value="advanced">
+  <label for="advanced">Advanced</label> <br />
+
+  <input type="checkbox" value="shoes"><label for="shoes">Climbing shoes</label><br>
+  <input type="checkbox" value="chalk"><label for="chalk">Chalk</label><br>
+  <input type="checkbox" value="rope"><label for="rope">Rope</label><br>
+  <input type="checkbox" value="quickdraws"><label for="quickdraws">Quickdraws</label><br>
+  
+
 </form>
 
 <p id = "description"></p>
