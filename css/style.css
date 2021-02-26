@@ -6,13 +6,15 @@ body {
 
 }
 
+h3 {
+  margin-bottom: 0px;
+  margin-top: 40px;  
+}
+
 #title {
     font-size: 3rem;
 }
 
-input {
-    margin: 5px
-}
 
 p {
     margin-left: 20%;
