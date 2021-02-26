@@ -21,7 +21,8 @@ p {
 }
 
 div {
-    margin: 20px
+    margin: 20px;
+    display: block;
 }
 
 #survey-form {    
